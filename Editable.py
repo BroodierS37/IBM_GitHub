@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 
 #Cargamos el csv 
-datos_csv = pd.read_csv("C:\\Users\\jalvarezg1601\\Desktop\\ESCOM\\5TO SEMESTRE\Analítica y Visualización de Datos\\Prácticas\\Practica1y2_AlvarezGarciaJoseFrancisco_5AV1\\used_cars_data.csv")
+datos_csv = pd.read_csv("used_cars_data.csv")
 
 #%%1. Análisis exploratorio de datos (EDA, Exploratory Data Analysis) 
 
@@ -247,3 +247,4 @@ for col in datos_csv_limpieza.select_dtypes(include=['object']).columns:
         plt.ylabel(f'Media de {precio_col}')
         plt.xticks(rotation=45)
         plt.show()
+
