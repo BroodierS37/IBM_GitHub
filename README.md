@@ -1,2 +1,3 @@
 # IBM_GitHub
-Practica de creación de repositorios en GithUB
+## PracticA Curso IBM
+Práctica de creación de repositorios en GitHub en el curso Data Science de IBM en Coursera
